@@ -1,0 +1,89 @@
+/*Скидання стилів*/
+@import url("reset.css");
+
+div {
+   color: green;
+}
+
+p.description {
+color: #20B2AA;
+}
+
+p {
+color: #FF6347;
+}
+
+.introduction {
+   color: #FFD700;
+}
+
+[href="contacts.html"] {
+   color: #32CD32;
+}
+
+[title|="Вверх сторінки"] {
+   color: purple;
+}
+
+[title~="Сайт"] {
+   color: #4682B4;
+}
+
+[class^="title"]{
+   color: aqua;
+}
+
+[class$="description"]{
+   color: darkviolet;
+}
+
+[title]::before {
+   content: "(?)";
+   color: orangered;
+   display: inline-block;
+   margin-right: 1px;
+}
+
+[class*="-paragraph"]{
+   color: #32CD32;
+}
+
+.middle.text {
+   color: blue;
+}
+
+#introduction-id {
+   color: orange;
+}
+
+.last,
+.division,
+div.last.division.chapter
+ {
+   color: #20B2AA;
+}
+
+.askania .chapter {
+   color: #C71585;
+}
+
+.sands .chapter {
+   color: rgb(251, 127, 70);
+}
+
+.narrative * {
+   color: #1E90FF;
+}
+
+.akkerman-fortress>div>p {
+   color: goldenrod;
+}
+
+.kyiv-pechersk-lavra~div {
+   color: blue;
+}
+
+.subtitle + div {
+   color: magenta;
+}
+
